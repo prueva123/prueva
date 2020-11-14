@@ -405,6 +405,18 @@ width:;
 height:;
 }
 
+@media (max-width: 440px) {
+
+.grid-container{ 
+grid-template: 
+"header" 		175px 
+"formulario"	680px
+"producto" 		400px
+"beneficio"		550px
+"web" 			50px /
+1fr
+}
+
 
 #a1{
 

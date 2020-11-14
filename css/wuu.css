@@ -405,7 +405,7 @@ width:;
 height:;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 420px) {
 
 .grid-container{ 
 grid-template: 
@@ -415,6 +415,60 @@ grid-template:
 "beneficio"		550px
 "web" 			50px /
 1fr
+}
+
+.header{
+font-size: 1.6rem;
+padding-top: 25px;
+margin-top: 1%;
+	}
+
+
+.header img{
+float: none;
+width: 50%;
+padding-top: 6%;
+padding-bottom: 3px;
+}
+
+
+.formulario{
+width: 100%;
+}
+
+.formulario h1{
+margin:20px;
+}
+
+.formulario ul{
+width: 100%;
+}	
+
+.beneficio{	
+background-color: #ffffff;
+}
+
+.beneficio h1{
+  color: #000;
+  font-size: 30px;	
+  font-weight: bold;
+  margin-top: 27px;
+  margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.beneficio ul{
+  color: #000;
+  font-size: 17px;	
+  font-weight: bold;
+  margin-top: 27px;
+  margin-bottom: 38px;
+  padding-left: 5%;
+}
+
+.beneficio img{	
+width:;
+height:;
 }
 
 

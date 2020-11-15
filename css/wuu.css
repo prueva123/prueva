@@ -197,7 +197,7 @@ grid-template:
 "formulario producto    producto"  	400px
 "formulario beneficio   beneficio"  450px
 "web 		web 		web" 		80px /
-300px 		0.8fr		0.3fr
+400px 		0.8fr		0.3fr
 	}
 
 .producto img{
@@ -211,10 +211,6 @@ margin:9px;
 
 .formulario ul{
 width: 100%;
-}
-
-.beneficio{
-background-color: #ffffff;
 }
 
 .beneficio h1{
@@ -235,26 +231,34 @@ background-color: #ffffff;
   padding-left: 5%;
 }	
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
 .grid-container{
 grid-template: 
 "header 	header" 		160px 
 "formulario producto"		auto
-"beneficio  beneficio"		430px
+"beneficio  beneficio"		450px
 "web 		web" 			50px /
 48%			1fr
 	}
 
 .header{
-font-size: 2rem;
-padding-top: 25px;
-margin-top: 1%;
+	grid-area: header;
+	color: white;
+	font-weight: bold;
+	font-size: 2.1rem;
+	padding: 10px;
+	padding-top: 3rem;
+	text-align: center;
+	background-color: #0d6e0d;
 }
 
+
 .header img{
-  width: 300px;
+  width: 350px;
+  height: 135px;
   float: left;
-  padding-top: 4%;
+  padding-left: 1%;
+  margin-top: -40px;
 }
 
 .producto{
@@ -271,7 +275,73 @@ margin: 0;
 }
 
 .beneficio{
-background-color: #ffffff;
+width: auto;
+}
+
+.beneficio h1{
+  color: #000;
+  font-size: 35px;	
+  font-weight: bold;
+  margin-top: 27px;
+  margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.beneficio ul{
+  color: #000;
+  font-size: 19px;	
+  font-weight: bold;
+  margin-top: 27px;
+  margin-bottom: 38px;
+  padding-left: 5%;
+}
+
+}
+
+@media (max-width: 900px) {
+.grid-container{
+grid-template: 
+"header 	header" 		160px 
+"formulario producto"		auto
+"beneficio  beneficio"		430px
+"web 		web" 			50px /
+48%			1fr
+	}
+
+.header{
+	grid-area: header;
+	color: white;
+	font-weight: bold;
+	font-size: 1.6rem;
+	padding: 15px;
+	padding-top: 3rem;
+	text-align: center;
+	background-color: #0d6e0d;
+}
+
+
+.header img{
+  width: 350px;
+  height: 135px;
+  float: left;
+  padding-left: 1%;
+  margin-top: -40px;
+}
+
+.producto{
+margin: 0;
+}
+
+.producto img{
+	width: 100%;
+	height: 100%;
+}	
+
+.formulario{
+margin: 0;
+}
+
+.beneficio{
 width: auto;
 }
 
@@ -322,7 +392,7 @@ padding-bottom: 3px;
 
 .beneficio h1{
   color: #000;
-  font-size: 45px;	
+  font-size: 35px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
@@ -378,10 +448,6 @@ margin:20px;
 width: 100%;
 }	
 
-.beneficio{	
-background-color: #ffffff;
-}
-
 .beneficio h1{
   color: #000;
   font-size: 35px;	
@@ -405,7 +471,7 @@ width:;
 height:;
 }
 
-@media (max-width: 405px) {
+@media (max-width: 400px) {
 
 .grid-container{ 
 grid-template: 
@@ -443,10 +509,6 @@ margin:20px;
 .formulario ul{
 width: 100%;
 }	
-
-.beneficio{	
-background-color: #ffffff;
-}
 
 .beneficio h1{
   color: #000;

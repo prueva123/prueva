@@ -17,7 +17,7 @@ html{
 
 body{
 	font-family: 'Open sans';
-	font-size: 1.2rem;
+	font-size: 19px;
 	min-height: 100%;
 }
 
@@ -44,7 +44,7 @@ body{
 	grid-area: header;
 	color: white;
 	font-weight: bold;
-	font-size: 2.5rem;
+	font-size: 45px;
 	padding: 10px;
 	padding-top: 3rem;
 	text-align: center;
@@ -77,10 +77,17 @@ body{
 
 .main h1{
   color: #000;
-  font-size: 40px;	
+  font-size:40px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.main h3{
+  color: #000;
+  font-size: 24px;  
+  font-weight: bold;
   padding-left: 3%;
 }
 
@@ -146,7 +153,7 @@ height:;
 .footer{
 	grid-area: footer;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 15px;
 	padding: 10px;
 	padding-top: 1.5%;
 	text-align: center;
@@ -182,11 +189,11 @@ grid-template:
 "header 	   header 	 header" 	   150px 
 "navbar      sidebar   main"       auto
 "footer      footer    footer" 		 80px /
-400px 		0.6fr		0.5fr
+400px 		   0.6fr		 0.5fr
 	}
 
 .header{
-font-size: 1.9rem;
+font-size: 30px;
 }
 
 @media (max-width: 1400px) {
@@ -194,9 +201,9 @@ font-size: 1.9rem;
 grid-template: 
 "header 	  header 		  header" 	150px 
 "navbar     sidebar     sidebar"  400px
-"navbar     main        main"     450px
+"navbar     main        main"     430px
 "footer     footer      footer" 	80px /
-400px 		0.8fr		0.3fr
+400px 		  0.8fr		    0.3fr
 	}
 
 .sidebar img{
@@ -217,6 +224,13 @@ margin:9px;
   padding-left: 3%;
 }
 
+.main h3{
+  color: #000;
+  font-size: 29px;  
+  font-weight: bold;
+  padding-left: 3%;
+}
+
 .main ul{
   color: #000;
   font-size: 19px;	
@@ -231,16 +245,16 @@ margin:9px;
 grid-template: 
 "header 	  header" 		  160px 
 "navbar     sidebar"		  auto
-"main       main"		      450px
+"main       main"		      420px
 "footer     footer" 			50px /
-48%			1fr
+48%			    1fr
 	}
 
 .header{
 	grid-area: header;
 	color: white;
 	font-weight: bold;
-	font-size: 2.1rem;
+	font-size: 32px;
 	padding: 10px;
 	padding-top: 3rem;
 	text-align: center;
@@ -267,10 +281,17 @@ width: auto;
 
 .main h1{
   color: #000;
-  font-size: 35px;	
+  font-size: 50px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.main h3{
+  color: #000;
+  font-size: 25px;  
+  font-weight: bold;
   padding-left: 3%;
 }
 
@@ -292,14 +313,14 @@ grid-template:
 "navbar     sidebar"		auto
 "main       main"		    430px
 "footer 		footer" 		50px /
-48%			1fr
+48%			    1fr
 	}
 
 .header{
 	grid-area: header;
 	color: white;
 	font-weight: bold;
-	font-size: 1.6rem;
+	font-size: 25px;
 	padding: 15px;
 	padding-top: 3rem;
 	text-align: center;
@@ -326,10 +347,17 @@ width: auto;
 
 .main h1{
   color: #000;
-  font-size: 35px;	
+  font-size: 50px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.main h3{
+  color: #000;
+  font-size: 25px;  
+  font-weight: bold;
   padding-left: 3%;
 }
 
@@ -349,15 +377,15 @@ width: auto;
 .grid-container{ 
 grid-template: 
 "header" 		  175px 
-"navbar"	620px
+"navbar"	    700px
 "sidebar" 		400px
-"main"		    500px
+"main"		    450px
 "footer" 			50px /
 1fr
 }
 
 .header{
-font-size: 1.6rem;
+font-size: 25px;
 padding-top: 25px;
 margin-top: 1%;
 }
@@ -378,6 +406,13 @@ padding-bottom: 3px;
   padding-left: 3%;
 }
 
+.main h3{
+  color: #000;
+  font-size: 25px;  
+  font-weight: bold;
+  padding-left: 3%;
+}
+
 .main ul{
   color: #000;
   font-size: 18px;	
@@ -393,7 +428,7 @@ padding-bottom: 3px;
 .grid-container{ 
 grid-template: 
 "header" 		  175px 
-"navbar"	620px
+"navbar"	    750px
 "sidebar" 		400px
 "main"		    500px
 "footer" 			50px /
@@ -401,7 +436,7 @@ grid-template:
 }
 
 .header{
-font-size: 1.6rem;
+font-size: 25px;
 padding-top: 25px;
 margin-top: 1%;
 	}
@@ -431,6 +466,13 @@ margin:20px;
   padding-left: 3%;
 }
 
+.main h3{
+  color: #000;
+  font-size: 25px;  
+  font-weight: bold;
+  padding-left: 3%;
+}
+
 .main ul{
   color: #000;
   font-size: 20px;	
@@ -445,12 +487,12 @@ width:;
 height:;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 
 .grid-container{ 
 grid-template: 
 "header" 		  175px 
-"navbar"	680px
+"navbar"	    680px
 "sidebar" 		400px
 "main"		    550px
 "footer" 			50px /
@@ -458,7 +500,7 @@ grid-template:
 }
 
 .header{
-font-size: 1.5rem;
+font-size: 22px;
 padding-top: 25px;
 margin-top: 1%;
 	}
@@ -486,6 +528,13 @@ margin:20px;
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.main h2{
+  color: #000;
+  font-size: 30px;  
+  font-weight: bold;
   padding-left: 3%;
 }
 

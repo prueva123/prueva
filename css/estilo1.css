@@ -201,7 +201,7 @@ font-size: 30px;
 grid-template: 
 "header 	  header 		  header" 	150px 
 "navbar     sidebar     sidebar"  400px
-"navbar     main        main"     430px
+"navbar     main        main"     500px
 "footer     footer      footer" 	80px /
 400px 		  0.8fr		    0.3fr
 	}
@@ -213,6 +213,16 @@ height: 100%;
 
 .navbar h1{
 margin:9px;
+}
+
+.navbar h2{
+font-size: 30px;
+margin-top: 15%;
+}
+
+.navbar h4{
+font-size: 22px;
+margin-top: 7%;
 }
 
 .main h1{
@@ -240,12 +250,66 @@ margin:9px;
   padding-left: 5%;
 }	
 
+@media (max-width: 1250px) {
+.grid-container{
+grid-template: 
+"header     header      header"   150px 
+"navbar     sidebar     sidebar"  400px
+"navbar     main        main"     500px
+"footer     footer      footer"   80px /
+400px       0.8fr       0.3fr
+  }
+
+.sidebar img{
+width: 100%;
+height: 100%;
+} 
+
+.navbar h1{
+margin:9px;
+}
+
+.navbar h2{
+font-size: 30px;
+margin-top: 15%;
+}
+
+.navbar h4{
+font-size: 22px;
+margin-top: 7%;
+}
+
+.main h1{
+  color: #000;
+  font-size: 40px;  
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 38px;
+  padding-left: 3%;
+}
+
+.main h3{
+  color: #000;
+  font-size: 29px;  
+  font-weight: bold;
+  padding-left: 3%;
+}
+
+.main ul{
+  color: #000;
+  font-size: 19px;  
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 38px;
+  padding-left: 5%;
+} 
+
 @media (max-width: 1100px) {
 .grid-container{
 grid-template: 
 "header 	  header" 		  160px 
 "navbar     sidebar"		  auto
-"main       main"		      420px
+"main       main"		      490px
 "footer     footer" 			50px /
 48%			    1fr
 	}
@@ -311,7 +375,7 @@ width: auto;
 grid-template: 
 "header 	  header" 		160px 
 "navbar     sidebar"		auto
-"main       main"		    430px
+"main       main"		    520px
 "footer 		footer" 		50px /
 48%			    1fr
 	}
@@ -377,9 +441,9 @@ width: auto;
 .grid-container{ 
 grid-template: 
 "header" 		  175px 
-"navbar"	    700px
+"navbar"	    640px
 "sidebar" 		400px
-"main"		    450px
+"main"		    500px
 "footer" 			50px /
 1fr
 }
@@ -415,7 +479,7 @@ padding-bottom: 3px;
 
 .main ul{
   color: #000;
-  font-size: 18px;	
+  font-size: 17px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
@@ -430,7 +494,7 @@ grid-template:
 "header" 		  175px 
 "navbar"	    750px
 "sidebar" 		400px
-"main"		    500px
+"main"		    530px
 "footer" 			50px /
 1fr
 }
@@ -475,7 +539,7 @@ margin:20px;
 
 .main ul{
   color: #000;
-  font-size: 20px;	
+  font-size: 17.5px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;

@@ -93,10 +93,10 @@ body{
 
 .main ul{
   color: #000;
-  font-size: 25px;	
+  font-size: 19px;	
   font-weight: bold;
   margin-top: 27px;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   padding-left: 10%;
 }
 
@@ -189,11 +189,16 @@ grid-template:
 "header 	   header 	 header" 	   150px 
 "navbar      sidebar   main"       auto
 "footer      footer    footer" 		 80px /
-400px 		   0.6fr		 0.5fr
+400px 		   0.8fr		 0.5fr
 	}
 
 .header{
 font-size: 30px;
+}
+
+.navbar h2{
+font-size: 30px;
+margin-top: 15%;
 }
 
 @media (max-width: 1400px) {
@@ -201,7 +206,7 @@ font-size: 30px;
 grid-template: 
 "header 	  header 		  header" 	150px 
 "navbar     sidebar     sidebar"  400px
-"navbar     main        main"     500px
+"navbar     main        main"     550px
 "footer     footer      footer" 	80px /
 400px 		  0.8fr		    0.3fr
 	}
@@ -255,7 +260,7 @@ margin-top: 7%;
 grid-template: 
 "header     header      header"   150px 
 "navbar     sidebar     sidebar"  400px
-"navbar     main        main"     500px
+"navbar     main        main"     550px
 "footer     footer      footer"   80px /
 400px       0.8fr       0.3fr
   }
@@ -297,7 +302,7 @@ margin-top: 7%;
 
 .main ul{
   color: #000;
-  font-size: 19px;  
+  font-size: 18px;  
   font-weight: bold;
   margin-top: 25px;
   margin-bottom: 38px;
@@ -309,7 +314,7 @@ margin-top: 7%;
 grid-template: 
 "header 	  header" 		  160px 
 "navbar     sidebar"		  auto
-"main       main"		      490px
+"main       main"		      510px
 "footer     footer" 			50px /
 48%			    1fr
 	}
@@ -361,7 +366,7 @@ width: auto;
 
 .main ul{
   color: #000;
-  font-size: 19px;	
+  font-size: 18px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
@@ -377,7 +382,7 @@ grid-template:
 "navbar     sidebar"		auto
 "main       main"		    520px
 "footer 		footer" 		50px /
-48%			    1fr
+46%			    1fr
 	}
 
 .header{
@@ -390,7 +395,6 @@ grid-template:
 	text-align: center;
 	background-color: #0d6e0d;
 }
-
 
 .header img{
   width: 350px;
@@ -427,7 +431,7 @@ width: auto;
 
 .main ul{
   color: #000;
-  font-size: 19px;	
+  font-size: 17px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
@@ -441,9 +445,9 @@ width: auto;
 .grid-container{ 
 grid-template: 
 "header" 		  175px 
-"navbar"	    640px
+"navbar"	    750px
 "sidebar" 		400px
-"main"		    500px
+"main"		    570px
 "footer" 			50px /
 1fr
 }
@@ -459,6 +463,11 @@ float: none;
 width: 51%;
 padding-top: 6%;
 padding-bottom: 3px;
+}
+
+.navbar h2{
+  font-weight: bold;
+  margin-top: 35px;
 }
 
 .main h1{
@@ -494,7 +503,7 @@ grid-template:
 "header" 		  175px 
 "navbar"	    750px
 "sidebar" 		400px
-"main"		    530px
+"main"		    600px
 "footer" 			50px /
 1fr
 }
@@ -539,7 +548,7 @@ margin:20px;
 
 .main ul{
   color: #000;
-  font-size: 17.5px;	
+  font-size: 17px;	
   font-weight: bold;
   margin-top: 27px;
   margin-bottom: 38px;
